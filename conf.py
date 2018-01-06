@@ -116,7 +116,7 @@ htmlhelp_basename = 'sphinxdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
-latex_engine='xelatex'
+latex_engine='pdflatex'
 
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
@@ -131,10 +131,6 @@ latex_elements = {
     'preamble': r'''
 \hypersetup{unicode=true}
 \usepackage{CJKutf8}
-\usepackage{xeCJK}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{fontspec}
 \DeclareUnicodeCharacter{00A0}{\\nobreakspace}
 \DeclareUnicodeCharacter{2203}{\ensuremath{\exists}}
 \DeclareUnicodeCharacter{2286}{\ensuremath{\subseteq}}
