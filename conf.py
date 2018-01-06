@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = '地震行业相关问题汇编'
+project = u'地震行业相关问题汇编'
 copyright = '201711'
 author = 'i'
 
