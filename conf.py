@@ -176,7 +176,7 @@ texinfo_documents = [
     (master_doc, 'sphinx', u'地震相关专业名词与术语规范',
      author, 'Dr. Shi CHEN', 'One line description of project.',
      'Miscellaneous'),
-]
+] 
 
 
 
