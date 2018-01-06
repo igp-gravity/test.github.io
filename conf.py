@@ -121,7 +121,7 @@ latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
     # 'papersize': 'letterpaper',
-
+    \usepackage{xeCJK}
     # The font size ('10pt', '11pt' or '12pt').
     #
     # 'pointsize': '10pt',
@@ -134,7 +134,7 @@ latex_elements = {
     #
     # 'figure_align': 'htbp',
 }
-\usepackage{xeCJK}
+
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
