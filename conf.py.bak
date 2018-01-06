@@ -128,13 +128,9 @@ latex_elements = {
     #'pointsize': '15pt',
     # Additional stuff for the LaTeX preamble.
     #
-    'fontpkg': r'''
-\setmainfont{DejaVu Serif}
-\setsansfont{DejaVu Sans}
-\setmonofont{DejaVu Sans Mono}
-''',
     'preamble': r'''
 \usepackage[titles]{tocloft}
+\documentclass[UTF8]{ctexart} 
 \cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
 \setlength{\cftchapnumwidth}{0.75cm}
 \setlength{\cftsecindent}{\cftchapnumwidth}
