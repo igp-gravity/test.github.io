@@ -141,7 +141,7 @@ latex_elements = {
 \DeclareUnicodeCharacter{2297}{\ensuremath{\otimes}}
 \\begin{CJK}{UTF8}{gbsn}
 \AtEndDocument{\end{CJK}}
-'''
+''',
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
