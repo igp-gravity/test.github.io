@@ -123,7 +123,7 @@ latex_elements = {
     'papersize': 'a4paper',
     # The font size ('10pt', '11pt' or '12pt').
     #
-    # 'pointsize': '10pt',
+    'pointsize': '12pt',
 
     # Additional stuff for the LaTeX preamble.
     #
@@ -141,7 +141,7 @@ latex_elements = {
 \DeclareUnicodeCharacter{2297}{\ensuremath{\otimes}}
 \\begin{CJK}{UTF8}{gbsn}
 \AtEndDocument{\end{CJK}}
-'''
+''',
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
