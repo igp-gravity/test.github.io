@@ -11,4 +11,4 @@
    :caption: Contents:
 
    Questions on Earthquake<content/fqforeq>
-
+   Questions on Earthquake forecast<content/forecast>
