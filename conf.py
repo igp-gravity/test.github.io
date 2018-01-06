@@ -47,8 +47,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'地震行业相关问题汇编'
-copyright = '201711'
-author = 'i'
+copyright = u'2017~2020, CEA-IGP'
+author = u'Dr. Shi CHEN'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -64,7 +64,7 @@ release = '1.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'CN'
+language = 'zh_CN'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -116,6 +116,7 @@ htmlhelp_basename = 'sphinxdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
+latex_engine = 'xelatex'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
@@ -124,10 +125,14 @@ latex_elements = {
     # The font size ('10pt', '11pt' or '12pt').
     #
     'pointsize': '15pt',
-
+    'fontpkg': r'''
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+''',
     # Additional stuff for the LaTeX preamble.
     #
-    'preamble': '''
+    'preamble': r'''
 \hypersetup{unicode=true}
 \usepackage{CJKutf8}
 \DeclareUnicodeCharacter{00A0}{\\nobreakspace}
@@ -142,11 +147,13 @@ latex_elements = {
 \\begin{CJK}{UTF8}{gbsn}
 \AtEndDocument{\end{CJK}}
 ''',
+    'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
+    'printindex': r'\footnotesize\raggedright\printindex',
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
 }
-
+latex_show_urls = 'footnote'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
