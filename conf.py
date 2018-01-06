@@ -129,12 +129,8 @@ latex_elements = {
     # Additional stuff for the LaTeX preamble.
     #
     'preamble': r'''
-\usepackage[titles]{tocloft}
 \documentclass[UTF8]{ctexart} 
-\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
-\setlength{\cftchapnumwidth}{0.75cm}
-\setlength{\cftsecindent}{\cftchapnumwidth}
-\setlength{\cftsecnumwidth}{1.25cm}
+\usepackage{CJKutf8}
 ''',
 
     # Latex figure (float) alignment
