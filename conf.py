@@ -116,8 +116,6 @@ htmlhelp_basename = 'sphinxdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
-latex_engine='pdflatex'
-
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
@@ -125,7 +123,7 @@ latex_elements = {
     'papersize': 'a4paper',
     # The font size ('10pt', '11pt' or '12pt').
     #
-    'pointsize': '15pt',
+    #'pointsize': '15pt',
     # Additional stuff for the LaTeX preamble.
     #
     'preamble': r'''
