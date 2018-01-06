@@ -128,7 +128,6 @@ latex_elements = {
     #'pointsize': '15pt',
     # Additional stuff for the LaTeX preamble.
     #
-latex_elements = {
     'fontpkg': r'''
 \setmainfont{DejaVu Serif}
 \setsansfont{DejaVu Sans}
@@ -143,7 +142,6 @@ latex_elements = {
 ''',
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
     'printindex': r'\footnotesize\raggedright\printindex',
-}
     'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
     'printindex': r'\footnotesize\raggedright\printindex',
     # Latex figure (float) alignment
