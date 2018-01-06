@@ -132,7 +132,6 @@ latex_elements = {
 ''',
     # Additional stuff for the LaTeX preamble.
     #
-    
     'preamble': r'''
 \hypersetup{unicode=true}
 \usepackage{CJKutf8}
