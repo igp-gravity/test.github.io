@@ -130,6 +130,7 @@ latex_elements = {
     'preamble': r'''
 \hypersetup{unicode=true}
 \usepackage{CJKutf8}
+\usepackage{xeCJK}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{fontspec}
