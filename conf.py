@@ -129,6 +129,9 @@ latex_elements = {
     'preamble': r'''
 \hypersetup{unicode=true}
 \usepackage{CJKutf8}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
 \DeclareUnicodeCharacter{00A0}{\\nobreakspace}
 \DeclareUnicodeCharacter{2203}{\ensuremath{\exists}}
 \DeclareUnicodeCharacter{2286}{\ensuremath{\subseteq}}
