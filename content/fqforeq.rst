@@ -21,8 +21,14 @@
 
 5．全球每年发生多少地震？
 ~~~~~~~~~~~~~~~~~~
+.. note::
+    All identifiers (contract names, function names and variable names) are restricted to
+    the ASCII character set. It is possible to store UTF-8 encoded data in string variables.
+
 .. warning::
-地球上每年约发生 ``500多万次``  地震
+    Be careful with using Unicode text as similarly looking (or even identical) characters can
+    have different code points and as such will be encoded as a different byte array.
+
 
 答：地球上每年约发生 ``500多万次``  地震，也就是说，每天要发生上万次地震。不过，它们之中绝大多数太小或离我们太远，人们感觉不到。真正能对人类造成严重危害的地震，全世界每年大约有一二十次；能造成唐山、汶川这样特别严重灾害的地震，每年大约有一两次。
 人们感觉不到的地震，须用地震仪才能记录下来；不同类型的地震仪能记录不同强度、不同远近的地震。目前世界上运转着数以千计的各种地震仪器，日夜监测着地震的动向。
